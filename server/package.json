@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendinblue/client": "^3.3.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "express-useragent": "^1.0.15",
+    "install": "^0.13.0",
+    "mongoose": "^7.4.2",
+    "node-mailjet": "^6.0.6",
+    "nodemailer": "^6.10.0",
+    "npm": "^11.1.0",
+    "passport": "^0.7.0",
+    "passport-google-oauth2": "^0.2.0",
+    "request-ip": "^3.3.0",
+    "twilio": "^5.4.3",
+    "user-agent": "^1.0.4"
+  }
+}
