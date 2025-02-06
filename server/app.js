@@ -13,7 +13,8 @@ const nodemailer = require("nodemailer");
 const useragent = require('express-useragent');
 const requestIp = require('request-ip');
 
-
+const clientid = "749091696898-7qu6kum7re3c3frq515ih8p9iapknqk7.apps.googleusercontent.com";
+const clientsecret = "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";
 
 app.use(cors({
     origin: 'http://localhost:3000',
